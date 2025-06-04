@@ -3,7 +3,7 @@ import axios from "axios";
 import './App.css';
 import TodoItem from "./components/TodoItem";
 
-const baseURL = "http://localhost:8000/todos";
+const baseURL = "https://todo-api-gj0x.onrender.com/todos";
 
 function App() {
   const [todos, setTodos] = useState([]);
